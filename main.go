@@ -1,4 +1,5 @@
-package main
+package moddemo
 
-func main()  {
+func SayHi(name string) string {
+	return "hi" + name
 }
